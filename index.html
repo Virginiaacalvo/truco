@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+  <html>
+  <head>
+	  <title>Anotador De Truco</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="estilos.css">
+  </head>
+  <body >
+	  <!-- pantalla 1 -->
+	<div class="container">
+		
+  		<form class="cuerpo" class="visible" id="pag1">
+
+			 <h1>Contador De Truco </h1>
+			 	<div class="elementospag1">
+  				<input type="text" placeholder="Equipo 1" class="cajaTexto" id="eq1"></br>
+  				<input type="text" placeholder="Equipo 2" class="cajaTexto" id="eq2"></br>
+  				<input type="button"  class="boton" id="a24" value="a24"></button>
+  				<input type="button"  class="boton" id="a30" value="a30"></button></br>
+				<input type="buttom"  class="boton2" id="iniciaJuego" value="INICIAR"></button>
+				</div>
+
+  		</form>
+
+	</div>
+
+ <!-- Pagina dos -->
+<div class="cuerpo"  class="oculto" id="pag2">  
+
+	<div class="container">
+		<div class="pag2css"> 
+
+		<div class="columna columna1">
+
+			<div class="inputseq">
+			<input type="text" class="nombreEquipo"   id="nombreEq1"> 
+			<input type="text" class="nombreEquipo"   id="puntaje1">
+			</div>
+
+			<div class="puntoseq">
+			<img src="0.png" id="p11" class="eq1" class="divi">()
+			<img src="0.png" id="p12" class="eq1" class="divi">
+			<img src="0.png" id="p13" class="eq1" class="divi">
+			<img src="0.png" id="p14" class="eq1" class="divi">
+			<img src="0.png" id="p15" class="eq1" class="divi">
+			<img src="0.png" id="p16" class="eq1" class="divi">
+
+			</div>
+
+			<input type="button"  class="boton3" id="sumaEq1" value="+"></button>
+
+		</div>
+
+		<div class="columna">
+		
+			<div class="inputseq">
+			<input type="text" class="nombreEquipo"	  id="nombreEq2">		  
+			<input type="text" class="nombreEquipo"	  id="puntaje2">
+			</div>
+			
+			<div class="puntoseq">
+			<img src="0.png" class="eq2" id="p21"> 			
+			<img src="0.png" class="eq2" id="p22"> 			
+			<img src="0.png" class="eq2" id="p23"> 	
+			<img src="0.png" class="eq2" id="p24"> 			
+			<img src="0.png" class="eq2" id="p25"> 	
+			<img src="0.png" class="eq2" id="p26">   
+			</div>
+
+			<input type="button"  class="boton3" id="sumaEq2" value="+"></button>
+
+		</div>
+		</div>
+		<input type="button"  class="boton2" id="finJuego" value="FIN"></button>
+	
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>  
+  </body>
+  </html>    
